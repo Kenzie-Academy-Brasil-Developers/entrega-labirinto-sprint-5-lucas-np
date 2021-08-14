@@ -1,0 +1,81 @@
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: orangered;
+    font-size: 50px;
+}
+
+#labirinto{
+    width: 100%;
+    height: 550px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab{
+    height: 35px;
+    width: 35px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.parede{
+    background-color: green;
+}
+.chao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.caminho{
+    background-color: lightgreen;
+}
+
+.entrada{
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 40px;
+}
+
+.saida{
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 40px;
+}
+
+p{
+    color: darkgreen;
+}
+
+#vitoria{
+    background-color: darkgreen;
+    color: orangered;
+    width: 800px;
+    height: 300px;
+    line-height: 260px;
+    font-weight: lighter;
+    font-size: 50px;
+    border-radius:50px;
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color: darkgreen;
+}
+#jogador{
+    background-color: orangered;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+
